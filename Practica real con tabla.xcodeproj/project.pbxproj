@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473998261CE1261400AA3650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473998251CE1261400AA3650 /* AppDelegate.swift */; };
+		473998281CE1261400AA3650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473998271CE1261400AA3650 /* ViewController.swift */; };
+		4739982B1CE1261400AA3650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473998291CE1261400AA3650 /* Main.storyboard */; };
+		4739982D1CE1261400AA3650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4739982C1CE1261400AA3650 /* Assets.xcassets */; };
+		473998301CE1261400AA3650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4739982E1CE1261400AA3650 /* LaunchScreen.storyboard */; };
+		4739983B1CE1261500AA3650 /* Practica_real_con_tablaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4739983A1CE1261500AA3650 /* Practica_real_con_tablaTests.swift */; };
+		473998461CE1261500AA3650 /* Practica_real_con_tablaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473998451CE1261500AA3650 /* Practica_real_con_tablaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		473998371CE1261500AA3650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4739981A1CE1261400AA3650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 473998211CE1261400AA3650;
+			remoteInfo = "Practica real con tabla";
+		};
+		473998421CE1261500AA3650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4739981A1CE1261400AA3650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 473998211CE1261400AA3650;
+			remoteInfo = "Practica real con tabla";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		473998221CE1261400AA3650 /* Practica real con tabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practica real con tabla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		473998251CE1261400AA3650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		473998271CE1261400AA3650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4739982A1CE1261400AA3650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4739982C1CE1261400AA3650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4739982F1CE1261400AA3650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		473998311CE1261400AA3650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473998361CE1261500AA3650 /* Practica real con tablaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practica real con tablaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4739983A1CE1261500AA3650 /* Practica_real_con_tablaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_real_con_tablaTests.swift; sourceTree = "<group>"; };
+		4739983C1CE1261500AA3650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473998411CE1261500AA3650 /* Practica real con tablaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practica real con tablaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		473998451CE1261500AA3650 /* Practica_real_con_tablaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_real_con_tablaUITests.swift; sourceTree = "<group>"; };
+		473998471CE1261500AA3650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4739981F1CE1261400AA3650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473998331CE1261500AA3650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4739983E1CE1261500AA3650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473998191CE1261400AA3650 = {
+			isa = PBXGroup;
+			children = (
+				473998241CE1261400AA3650 /* Practica real con tabla */,
+				473998391CE1261500AA3650 /* Practica real con tablaTests */,
+				473998441CE1261500AA3650 /* Practica real con tablaUITests */,
+				473998231CE1261400AA3650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		473998231CE1261400AA3650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				473998221CE1261400AA3650 /* Practica real con tabla.app */,
+				473998361CE1261500AA3650 /* Practica real con tablaTests.xctest */,
+				473998411CE1261500AA3650 /* Practica real con tablaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		473998241CE1261400AA3650 /* Practica real con tabla */ = {
+			isa = PBXGroup;
+			children = (
+				473998251CE1261400AA3650 /* AppDelegate.swift */,
+				473998271CE1261400AA3650 /* ViewController.swift */,
+				473998291CE1261400AA3650 /* Main.storyboard */,
+				4739982C1CE1261400AA3650 /* Assets.xcassets */,
+				4739982E1CE1261400AA3650 /* LaunchScreen.storyboard */,
+				473998311CE1261400AA3650 /* Info.plist */,
+			);
+			path = "Practica real con tabla";
+			sourceTree = "<group>";
+		};
+		473998391CE1261500AA3650 /* Practica real con tablaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4739983A1CE1261500AA3650 /* Practica_real_con_tablaTests.swift */,
+				4739983C1CE1261500AA3650 /* Info.plist */,
+			);
+			path = "Practica real con tablaTests";
+			sourceTree = "<group>";
+		};
+		473998441CE1261500AA3650 /* Practica real con tablaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				473998451CE1261500AA3650 /* Practica_real_con_tablaUITests.swift */,
+				473998471CE1261500AA3650 /* Info.plist */,
+			);
+			path = "Practica real con tablaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		473998211CE1261400AA3650 /* Practica real con tabla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4739984A1CE1261500AA3650 /* Build configuration list for PBXNativeTarget "Practica real con tabla" */;
+			buildPhases = (
+				4739981E1CE1261400AA3650 /* Sources */,
+				4739981F1CE1261400AA3650 /* Frameworks */,
+				473998201CE1261400AA3650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practica real con tabla";
+			productName = "Practica real con tabla";
+			productReference = 473998221CE1261400AA3650 /* Practica real con tabla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		473998351CE1261500AA3650 /* Practica real con tablaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4739984D1CE1261500AA3650 /* Build configuration list for PBXNativeTarget "Practica real con tablaTests" */;
+			buildPhases = (
+				473998321CE1261500AA3650 /* Sources */,
+				473998331CE1261500AA3650 /* Frameworks */,
+				473998341CE1261500AA3650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473998381CE1261500AA3650 /* PBXTargetDependency */,
+			);
+			name = "Practica real con tablaTests";
+			productName = "Practica real con tablaTests";
+			productReference = 473998361CE1261500AA3650 /* Practica real con tablaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		473998401CE1261500AA3650 /* Practica real con tablaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473998501CE1261500AA3650 /* Build configuration list for PBXNativeTarget "Practica real con tablaUITests" */;
+			buildPhases = (
+				4739983D1CE1261500AA3650 /* Sources */,
+				4739983E1CE1261500AA3650 /* Frameworks */,
+				4739983F1CE1261500AA3650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473998431CE1261500AA3650 /* PBXTargetDependency */,
+			);
+			name = "Practica real con tablaUITests";
+			productName = "Practica real con tablaUITests";
+			productReference = 473998411CE1261500AA3650 /* Practica real con tablaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4739981A1CE1261400AA3650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Edwjon;
+				TargetAttributes = {
+					473998211CE1261400AA3650 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					473998351CE1261500AA3650 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 473998211CE1261400AA3650;
+					};
+					473998401CE1261500AA3650 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 473998211CE1261400AA3650;
+					};
+				};
+			};
+			buildConfigurationList = 4739981D1CE1261400AA3650 /* Build configuration list for PBXProject "Practica real con tabla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 473998191CE1261400AA3650;
+			productRefGroup = 473998231CE1261400AA3650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				473998211CE1261400AA3650 /* Practica real con tabla */,
+				473998351CE1261500AA3650 /* Practica real con tablaTests */,
+				473998401CE1261500AA3650 /* Practica real con tablaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		473998201CE1261400AA3650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473998301CE1261400AA3650 /* LaunchScreen.storyboard in Resources */,
+				4739982D1CE1261400AA3650 /* Assets.xcassets in Resources */,
+				4739982B1CE1261400AA3650 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473998341CE1261500AA3650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4739983F1CE1261500AA3650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4739981E1CE1261400AA3650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473998281CE1261400AA3650 /* ViewController.swift in Sources */,
+				473998261CE1261400AA3650 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473998321CE1261500AA3650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4739983B1CE1261500AA3650 /* Practica_real_con_tablaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4739983D1CE1261500AA3650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473998461CE1261500AA3650 /* Practica_real_con_tablaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		473998381CE1261500AA3650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 473998211CE1261400AA3650 /* Practica real con tabla */;
+			targetProxy = 473998371CE1261500AA3650 /* PBXContainerItemProxy */;
+		};
+		473998431CE1261500AA3650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 473998211CE1261400AA3650 /* Practica real con tabla */;
+			targetProxy = 473998421CE1261500AA3650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		473998291CE1261400AA3650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4739982A1CE1261400AA3650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4739982E1CE1261400AA3650 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4739982F1CE1261400AA3650 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		473998481CE1261500AA3650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		473998491CE1261500AA3650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4739984B1CE1261500AA3650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practica real con tabla/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EdwardPizzurro.Practica-real-con-tabla";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4739984C1CE1261500AA3650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practica real con tabla/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EdwardPizzurro.Practica-real-con-tabla";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4739984E1CE1261500AA3650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practica real con tablaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EdwardPizzurro.Practica-real-con-tablaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica real con tabla.app/Practica real con tabla";
+			};
+			name = Debug;
+		};
+		4739984F1CE1261500AA3650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practica real con tablaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EdwardPizzurro.Practica-real-con-tablaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica real con tabla.app/Practica real con tabla";
+			};
+			name = Release;
+		};
+		473998511CE1261500AA3650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practica real con tablaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EdwardPizzurro.Practica-real-con-tablaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practica real con tabla";
+			};
+			name = Debug;
+		};
+		473998521CE1261500AA3650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practica real con tablaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EdwardPizzurro.Practica-real-con-tablaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practica real con tabla";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4739981D1CE1261400AA3650 /* Build configuration list for PBXProject "Practica real con tabla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473998481CE1261500AA3650 /* Debug */,
+				473998491CE1261500AA3650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4739984A1CE1261500AA3650 /* Build configuration list for PBXNativeTarget "Practica real con tabla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4739984B1CE1261500AA3650 /* Debug */,
+				4739984C1CE1261500AA3650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4739984D1CE1261500AA3650 /* Build configuration list for PBXNativeTarget "Practica real con tablaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4739984E1CE1261500AA3650 /* Debug */,
+				4739984F1CE1261500AA3650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		473998501CE1261500AA3650 /* Build configuration list for PBXNativeTarget "Practica real con tablaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473998511CE1261500AA3650 /* Debug */,
+				473998521CE1261500AA3650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4739981A1CE1261400AA3650 /* Project object */;
+}
