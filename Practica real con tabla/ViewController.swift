@@ -43,48 +43,45 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 
+        // use large numbers to avoid collisions with system-defined views
+        let messageViewTag = 2
+        let ballonViewTag = 4
+        let labelTag = 8
 
         var ballonview = UIImageView()
         var label = UILabel()
 
-        let cell:UITableViewCell? = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
 
 
-        cell!.selectionStyle = UITableViewCellSelectionStyle.None
+        cell.selectionStyle = UITableViewCellSelectionStyle.None
 
-        if (cell == nil) {
-
-
+        if let messageView = cell.contentView.viewWithTag(messageViewTag) {
+            // message view is set
+            ballonview = (messageView.viewWithTag(ballonViewTag) as! UIImageView)
+            label = (messageView.viewWithTag(labelTag) as! UILabel)
+        } else {
+            // message view is NOT set
             ballonview.frame = CGRectZero
-            ballonview.tag = 1
+            ballonview.tag = ballonViewTag
 
             label.frame = CGRectZero
             label.backgroundColor = UIColor.clearColor()
             label.lineBreakMode = NSLineBreakMode.ByWordWrapping
             label.textAlignment = NSTextAlignment.Left
             label.numberOfLines = 0
-            label.tag = 2
+            label.tag = labelTag
             label.sizeToFit()
             label.font = label.font.fontWithSize(14.0)
 
             let message = UIView()
-            message.tag = 0
-            message.frame = CGRectMake(0.0, 0.0, cell!.frame.size.width, cell!.frame.size.height)
+            message.tag = messageViewTag
+            message.frame = CGRectMake(0.0, 0.0, cell.frame.size.width, cell.frame.size.height)
             message.addSubview(ballonview)
             message.addSubview(label)
 
-
-
-            cell!.contentView.addSubview(message)
+            cell.contentView.addSubview(message)
         }
-
-        else {
-            //Here i get the error
-            ballonview = (cell?.contentView.viewWithTag(0)?.viewWithTag(1) as! UIImageView)
-            label = (cell?.contentView.viewWithTag(0)?.viewWithTag(2) as! UILabel)
-
-        }
-
 
         let textt: String = messages.objectAtIndex(indexPath.row) as! String
 
@@ -119,7 +116,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
 
 
-        return cell!
+        return cell
     }
 
 
