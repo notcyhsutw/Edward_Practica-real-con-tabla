@@ -10,7 +10,17 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
 
-
+    // data structure of message
+    class Message {
+        var content: String?
+        var isOutgoing: Bool = false
+        
+        init(content: String, isOutgoing: Bool = false) {
+            self.content = content
+            self.isOutgoing = isOutgoing
+        }
+    }
+    
     @IBOutlet var textfield: UITextField!
 
     @IBOutlet var tableView: UITableView!
@@ -18,8 +28,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var swiche: UISwitch!
 
 
-    //MutableArray which has the messages
-    var messages:NSMutableArray = []
+    // MutableArray which has the messages
+    var messages: [Message] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -83,7 +93,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.contentView.addSubview(message)
         }
 
-        let textt: String = messages.objectAtIndex(indexPath.row) as! String
+        let message = messages[indexPath.row]
+        let textt: String = message.content!
 
 
         let size:CGSize = textt.boundingRectWithSize(CGSizeMake(240.0, 480.0), options: NSStringDrawingOptions.UsesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFontOfSize(14.0)], context: nil).size
@@ -94,7 +105,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         var ballon:UIImage = UIImage()
 
 
-        if (swiche.on == true ) {
+        if (message.isOutgoing) {
 
 
             ballonview.frame = CGRectMake(320.0 - (size.width + 28.0), 2.0, size.width + 28.0, CGFloat(ceil(Float(size.height))) + 15.0)
@@ -139,7 +150,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat
     {
 
-        let body:String = messages.objectAtIndex(indexPath.row) as! String
+        let body:String = messages[indexPath.row].content!
         let bodysize:CGSize = body.boundingRectWithSize(CGSizeMake(240.0, 480.0), options: NSStringDrawingOptions.UsesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFontOfSize(14.0)], context: nil).size
         return bodysize.height + 15
 
@@ -149,7 +160,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBAction func Okqlq(sender: AnyObject)
     {
         if textfield.text != "" {
-            messages.addObject(textfield.text!)
+            messages.append(
+                Message(
+                    content: textfield.text!,
+                    isOutgoing: swiche.on
+                )
+            )
             tableView.reloadData()
             textfield.text = ""
             
